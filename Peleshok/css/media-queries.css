@@ -1,0 +1,306 @@
+
+@media (max-width: 992px){
+  
+	 .wrapper{
+  	width: 992px;
+  	margin: auto;
+  }
+{
+  box-sizing: border-box;
+}
+
+html, body, p{
+    margin: 0;
+    padding: 0;
+    font-family: Footlight MT Light;
+}
+.header{
+margin-bottom: 0px;
+}
+.inner-header{
+background: url(./images/2.png) no-repeat center bottom / cover;  
+height: 300px;
+}
+.content1{
+width: 50%;
+float: left;
+}
+.inner-content1{
+background:#bae9e5;
+/* height: 200px; */
+margin-bottom: 0px;
+
+}
+
+.sidebar1{
+width: 25%;
+float: left;
+}
+.inner-sidebar1{
+background:#a0a9ad;
+height: 100%;
+margin-bottom: 0px;
+}
+.sidebar2{
+width: 25%;
+float: left;
+}
+.inner-sidebar2{
+background:#a0a9ad;
+height: 100%;
+margin-bottom: 0px;
+}
+
+.sidebar3{
+width: 25%;
+background:#b49ca6;
+}
+.inner-sidebar3{
+background:#b49ca6;
+margin-bottom: 5px;
+}
+
+.footer{
+margin-top: 1px;
+}
+.inner-footer{
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+   }
+   th, td {
+    padding: 3px; 
+    border: 2px solid maroon; 
+    border-color: #8a9ca5;
+    text-align: center; 
+   }
+    .registration{
+      text-align: right;
+      width: 50%;
+  }
+  .logo {
+  color: #D5B45B;
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  padding: 120px 0;
+}
+  .inner-header .nav {
+  text-align: center;
+  padding: 0 0 0;
+  width: 100%;
+  height: 40px;
+  background:#a0a9ad;
+}
+
+}
+
+@media screen and (max-width: 576px){
+  .inner-header .nav a{
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 700px){
+  .hero-section{
+    flex-flow: column nowrap;}
+
+   .wrapper{
+  width: 700px;
+  margin: auto;
+}
+
+
+html, body, p{
+    margin: 0;
+    padding: 0;
+    font-family: Footlight MT Light;
+}
+.header{
+margin-bottom: 0px;
+}
+.inner-header{
+background: url(./images/2.png) no-repeat center bottom / cover;  
+height: 300px;
+}
+.content1{
+width:100%;
+}
+.inner-content1{
+background:#63c562;
+margin-bottom: 0px;
+}
+.sidebar1{
+width:100%;
+}
+.inner-sidebar1{
+background:#a0a9ad;
+margin-bottom: 0px;
+}
+.sidebar2{
+width:100%;
+}
+.inner-sidebar2{
+background:#a0a9ad;
+margin-bottom: 0px;
+}
+.content2{
+}
+.inner-content2{
+background:#9ca0b4;
+min-height: 100px;
+margin-bottom: 5px;
+}
+.sidebar3{
+width: 50%;
+background:#b49ca6;
+}
+.inner-sidebar3{
+background:#b49ca6;
+margin-bottom: 5px;
+}
+
+.footer{
+margin-top: 1px;
+}
+.inner-footer{
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+   }
+   th, td {
+    padding: 1px; 
+    border: 1px solid maroon; 
+    border-color: #8a9ca5;
+    text-align: center; 
+   }
+    .registration{
+      text-align: center;
+      width: 50%;
+  }
+  .logo {
+  color: #D5B45B;
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  padding: 120px 0;
+}
+  .inner-header .nav {
+  text-align: center;
+  padding: 0 0 0;
+  width: 100%;
+  height: 40px;
+  background:#a0a9ad;
+}
+
+}
+
+@media (max-width: 400px){
+  .hero-section{
+    flex-flow: column nowrap;}
+
+   .wrapper{
+  width: 400px;
+  margin: auto;
+}
+{box-sizing: border-box;
+}
+
+html, body, p{
+    margin: 0;
+    padding: 0;
+    font-family: Footlight MT Light;
+}
+.header{
+width: 100%;
+
+}
+.inner-header{
+background: url(./images/2.png) no-repeat center bottom / cover;  
+height: 300px;
+margin-bottom: 0px;
+display: flex;
+flex-direction: row;
+}
+.content1{
+width: 100%;
+float: left;
+}
+.inner-content1{
+background:#63c562;
+margin-bottom: 0px;
+}
+.sidebar1{
+width: 100%;
+float: left;
+
+}
+.inner-sidebar1{
+background:#a0a9ad;
+margin-bottom: 0px;
+}
+.sidebar2{
+width: 100%;
+float: left;
+}
+.inner-sidebar2{
+background:#a0a9ad;
+margin-bottom: 0px;
+}
+.content2{
+  
+}
+.inner-content2{
+background:#9ca0b4;
+min-height: 100px;
+margin-bottom: 5px;
+display: flex;
+flex-direction: row;
+}
+.sidebar3{
+width: 100%;
+background:#b49ca6;
+}
+.inner-sidebar3{
+background:#b49ca6;
+margin-bottom: 5px;
+}
+
+.footer{
+margin-top: 1px;
+}
+.inner-footer{
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+   }
+   th, td {
+    padding: 1px; 
+    border: 1px solid maroon; 
+    border-color: #8a9ca5;
+    text-align: center; 
+   }
+    .registration{
+      text-align: right;
+      width: 50%;
+  }
+  .logo {
+  color: #D5B45B;
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  padding: 120px 0;
+}
+  .inner-header .nav {
+  text-align: center;
+  padding: 0 0 0;
+  width: 100%;
+  height: 40px;
+  background:#a0a9ad;
+}
+
+}
